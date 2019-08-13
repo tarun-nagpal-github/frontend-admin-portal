@@ -1,0 +1,23 @@
+[
+  { "_comment": "Left Menu configuration file." },
+  { "url": "coming-soon", "actions": ["Edit", "Delete", "view"] },
+  { "url": "dashboard", "actions": ["Edit", "Delete", "view"] },
+  {
+    "url": "receiving-list-orders",
+    "actions": ["Edit", "Delete", "view", "uploadPaperwork"]
+  },
+  {
+    "url": "receiving-at-dock",
+    "actions": ["Edit", "Myaction", "Delete", "view"]
+  },
+  {
+    "url": "receiving-at-dock-dashboard",
+    "actions": ["Edit", "View", "Delete"]
+  },
+  { "url": "receiving-orphan-receipts", "actions": ["Edit", "Delete", "view"] },
+  {
+    "url": "receiving-missing-receipts",
+    "actions": ["Edit", "Delete", "view"]
+  },
+  { "url": "blankpage", "actions": ["Edit", "Delete", "view"] }
+]

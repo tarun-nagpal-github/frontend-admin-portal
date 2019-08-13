@@ -1,0 +1,10 @@
+version: 0.0
+os: windows
+files:
+  
+  - source: \dist\
+    destination: E:\WebApps\Dev\Extron.UI
+hooks:
+  BeforeInstall:
+    - location: \preInstall.bat
+      timeout: 900

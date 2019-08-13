@@ -1,0 +1,39 @@
+{
+  "_comment": "Left Menu configuration file.",
+  "Dashboard": {
+    "name": "Dashboard",
+    "url": "dashboard",
+    "class": "ti-home"
+  },
+  "Receiving": [
+    {
+      "id": 45,
+      "name": "Dashboard",
+      "url": "receiving-at-dock-dashboard",
+      "class": "fa fa-handshake-o"
+    },
+    {
+      "id": 35,
+      "name": "Add Receiving",
+      "url": "receiving-at-dock",
+      "class": "fa fa-handshake-o"
+    }
+  ],
+  "Users": [
+    {
+      "id": 37,
+      "name": "Create",
+      "url": "create-user",
+      "class": "fa fa-user-circle-o"
+    },
+    { "id": 36, "name": "Manage", "url": "users-list" }
+  ],
+  "Permissions": [
+    {
+      "id": 38,
+      "name": "Role Based Access",
+      "url": "permissions",
+      "class": "fa fa-plug"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "GRAPHQL_URL": "http://dev.graph.extroninc.com/graphql/",
+  "AUTH_URL": "http://dev.auth.extroninc.com/api/",
+  "USER_URL": "http://dev.user.extroninc.com/api/v1/",
+  "RECEIVING_URL": "http://dev.items.extroninc.com/api/v1/",
+  "STORE_URL": "http://dev.store.extroninc.com/api/v1/"
+}

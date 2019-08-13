@@ -1,0 +1,341 @@
+.ReactTable {
+  border-color: rgba(0, 0, 0, 0.1);
+  .rt-th,
+  .rt-td {
+    padding: 6px;
+    white-space: unset;
+  }
+  .rt-tbody {
+    text-align: left;
+    .rt-tr-group {
+      border-color: rgba(0, 0, 0, 0.1);
+    }
+    .rt-td {
+      border-right: 0;
+      white-space: unset;
+    }
+  }
+  .rt-thead {
+    &.-header {
+      //   background: #d5eefb;
+      //   color: #000;
+      background: #00438a;
+      color: #fff;
+      box-shadow: none;
+      .rt-th {
+        padding: 12px;
+        border-right: none;
+        &.-sort-asc {
+          box-shadow: none;
+          .rt-resizable-header-content::after {
+            box-shadow: none;
+            content: url(/assets/images/asc.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-left:6px;
+          }
+        }
+        &.-sort-desc {
+          box-shadow: none;
+          .rt-resizable-header-content::after {
+            box-shadow: none;
+            content: url(/assets/images/desc.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-left:6px;
+          }
+        }
+      }
+      .rt-tr {
+        text-align: left;
+      }
+      .rt-td {
+        &.-sort-asc {
+          box-shadow: none;
+        }
+        &.-sort-desc {
+          box-shadow: inset 0 -3px 0 #ffffff;
+        }
+      }
+    }
+    &.-filters,
+    &.-filters input,
+    &.-filters select {
+      border-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+  &.-highlight {
+    .rt-tbody {
+      text-align: left;
+      .rt-tr {
+        &:not(.rt-tr):hover {
+          background: #f7f7f7;
+        }
+      }
+    }
+  }
+  .-pagination {
+    border-top: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    input,
+    select {
+      border-color: rgba(0, 0, 0, 0.2);
+    }
+    .-btn {
+      color: #fff;
+      background: #00438a;
+      width: auto;
+      height: auto;
+      padding: 10px 30px;
+      &:not([disabled]):hover {
+        background: #015294;
+      }
+    }
+    .-next {
+      .-btn {
+        float: right;
+      }
+    }
+    .-btn[disabled] {
+      background: #74acf191;
+      opacity: 1;
+    }
+    .-center {
+      flex: auto;
+      -webkit-box-flex: auto;
+    }
+  }
+  .rt-noData {
+    color: #333333;
+    background: rgba(255, 255, 255, 1);
+  }
+  &.-striped {
+    .rt-tr {
+      &.-odd {
+        background: #f9f6f6a8;
+      }
+      &.-even {
+        background: white;
+      }
+    }
+  }
+}
+
+.btn-styling {
+  border: solid 1px #158e81;
+  background-color: #1bb4a4;
+  color: #fff;
+}
+
+.btn-styling:hover {
+  border: solid 1px #158e81;
+  background-color: #1bb4a4;
+  color: #fff;
+}
+
+.datatable-input-width {
+  width: 100%;
+}
+
+.rt-tr[data-qnt="0"] > .rt-expandable {
+  visibility: hidden;
+}
+
+.table-head-color {
+  background-color: "#477cae";
+  border: "1px solid #477cae";
+}
+
+.missing-popup{
+  max-width: 600px;
+}
+
+.tagged-popup {
+  max-width: 650px;
+}
+.modal-width-orphan{
+  max-width: 70%;
+}
+.receiving-popup {
+  max-width: 70% !important;
+}
+.serial-popup {
+  max-width: 85%;
+}
+
+.thead-custom {
+  background-color: #74acf1;
+  border: 1px solid #74acf1;
+}
+
+.fa-info-circle {
+  color: #00438a;
+}
+
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:focus {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #d87103;
+  background-color: #d87103;
+  box-shadow: none;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: white;
+  border: solid 1px #d87103c4;
+  background-color: #d87103c4;
+}
+
+.btn-primary:hover {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  color: white;
+  border: solid 1px #d87103c4;
+  background-color: #d87103c4;
+  box-shadow: none;
+}
+
+.btn-danger,
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.btn-danger:focus {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #0090a3;
+  background-color: #00a5bb;
+  box-shadow: none;
+}
+
+// .btn-danger.disabled, .btn-danger:disabled{
+//     border: solid 1px #0090a3;
+//     background-color: #0090a3;
+// }
+
+.btn-danger:hover,
+.btn-danger:disabled {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #0090a3;
+  background-color: #00a5bbbf;
+  box-shadow: none;
+}
+
+.btn-secondary,
+.btn-secondary:active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:focus {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #158e81;
+  background-color: #158e81;
+  box-shadow: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:disabled {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #158e81c7;
+  background-color: #158e81c7;
+  box-shadow: none;
+}
+
+.btn-success,
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success:focus {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #0090a3;
+  background-color: #00a5bb;
+  box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:disabled {
+  width: auto;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #0090a3;
+  background-color: #00a5bbbf;
+  box-shadow: none;
+}
+.view-action {
+  cursor: pointer;
+  color: #4994f1;
+  font-weight: 700;
+}
+
+.__react_component_tooltip.type-dark {
+  color: #fff;
+  background-color: #00438a;
+}
+
+.__react_component_tooltip.type-dark.place-top:after {
+  border-top-color: #00438a;
+}
+
+.inner-header-class {
+  background: #000;
+}
+
+// To make modal valign-center
+.modal-dialog {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+// .modal-dialog {
+//   // position: relative;
+//   // position: absolute;
+//   display: table; /* This is important */
+//   overflow-y: auto;
+//   overflow-x: auto;
+//   width: auto;
+//   min-width: 300px;
+// }
+// Global inout Group Height
+.input-group {
+  height: 29px;
+}
+
+.clientSelection {
+  padding-top: 5px;
+}
+.forgot-password-div {
+  min-width: 400px;
+}
+.img-fluid-extron {
+  max-width: 86%;
+  height: auto;
+}
+.badge-success{
+  color: #fff;
+  background-color: #004eff;
+  font-weight: bold !important;
+}
+.badge-danger{
+  color: #fff;
+  background-color: #ff0303e8;
+  font-weight: bold !important;
+}
+.badge-warning{
+  font-weight: bold !important;
+}

@@ -1,0 +1,68 @@
+{
+    "RECIEVING": {
+      "DASHBOARD": {
+        "VIEW_RECIEVING" : "receiving-dashboard",
+        "DELETE_RECIEVING" : "delete-receiving",
+        "ADD_RECIEVING" : "add-receiving",
+        "EDIT_RECIEVING" : "edit-receiving",
+		    "MOVE_TO_M2M" : "move-to-M2M",
+		    "CLOSED_RECEIPT_DETAIL" : "closed-receipt-detail"
+      },
+      "DOCK" : {
+        "SAVE_RECEIPT" : "save-receipt",
+        "ADD_PARTS" : "add-parts",
+        "CLOSE_RECEIPT" : "close-receipt",
+        "GET_PARTS" : "get-parts",
+        "DELETE_PARTS" : "delete-parts",
+        "UPLOAD_DOC" : "upload-doc",
+        "RECEIPT_DETAILS" : "receipt-details",
+        "LIST_PICTURES" : "list-pictures",
+        "LIST_DOCUMENTS" : "list-documents",
+        "UPLOAD_PICTURES" : "upload-pictures",
+        "DELETE_DOCUMENTS" : "delete-documents",
+        "DELETE_PICTURES" : "delete-pictures",  
+        "EDIT_PARTS" : "edit-parts",
+        "EDIT_RECEIPT": "edit-receiving"
+      },
+      "WORKFLOW" :{
+        "INDEX_PAGE" : "receiving-workflow",
+        "ORPHAN" : {
+          "LIST_RECIEPTS" : "list-orphan-receipts",
+          "RESOLVE_DISCREPANCY" : "resolve-orphan-discrepancy",
+          "UPLOAD_DOCS" : "upload-docs-orphan-receipt"
+        },
+        "MISSING_PART" : {
+          "LIST_RECIEPTS": "list-missingpart-receipt",
+          "RESOLVE_DISCREPANCY": "resolve-missingpart-discrepancy"
+        },
+        "RECIEVING_QUEUE" : {
+          "LIST_RECIEPTS" : "list-receiving-queue",
+          "ALLOCATE_TO_SALES_ORDER" : "allocate-to-sales-order",
+          "RECEIVE_IN_M2M" : "receive-in-M2M"
+        },
+        "TAGGED_RECIEVING" : {
+         "LIST_RECIEPTS" : "list-tagged-receiving",
+         "SAVE_SERIAL_NUMBER" : "save-serial-numbers",
+         "VIEW_SCANNED_SERIAL_NUMBER" : "view-scanned-serial-numbers"
+        },
+        "READY_TO_MOVE" : {
+          "LIST_RECIEPTS" : "list-ready-to-move"
+        }     
+      } 
+    }
+  }
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+

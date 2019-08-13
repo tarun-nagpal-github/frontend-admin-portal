@@ -1,0 +1,34 @@
+.rbac {
+  // border: 1px solid red;
+  .modules {
+    // border: 1px solid green;
+  }
+  .pages {
+    // border: 1px solid blue;
+  }
+  .actions {
+    // border: 1px solid black;
+    .row {
+      // border: 1px solid red;
+      .action {
+        // border: 1px solid #d2d2e2;
+        .checkBox {
+          margin-right: 5px;
+          margin-top: 10px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .list-group-item {
+    cursor: pointer;
+  }
+  .card {
+    height: 600px;
+    border: 1px solid #aeaeae;
+  }
+}
+
+.perRow {
+  margin-bottom: 2%;
+}

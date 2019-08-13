@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "firstName" : "James",
+        "lastName" : "Lebron",
+        "email" : "james@gmail.com",
+        "zone" : "All",
+        "role" : "Administrator",
+        "active" : "yes"
+    },
+    {
+        "id": 2,
+        "firstName" : "Kyrie",
+        "lastName" : "Irving",
+        "email" : "kyrie@gmail.com",
+        "zone" : "Europe",
+        "role" : "Operations",
+        "active" : "yes"
+    },
+    {
+        "id": 3,
+        "firstName" : "John",
+        "lastName" : "Wall",
+        "email" : "john@gmail.com",
+        "zone" : "All",
+        "role" : "West",
+        "active" : "yes"
+    },
+    {
+        "id": 4,
+        "firstName" : "Harden",
+        "lastName" : "James",
+        "email" : "harden@gmail.com",
+        "zone" : "All",
+        "role" : "East",
+        "active" : "yes"
+    },
+    {
+        "id": 5,
+        "firstName" : "Westbook",
+        "lastName" : "K",
+        "email" : "westbrook@gmail.com",
+        "zone" : "All",
+        "role" : "East",
+        "active" : "yes"
+    },
+    {
+        "id": 6,
+        "firstName" : "Larry",
+        "lastName" : "Nance",
+        "email" : "larry@gmail.com",
+        "zone" : "All",
+        "role" : "Operations",
+        "active" : "yes"
+    }
+]
