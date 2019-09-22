@@ -1,4 +1,4 @@
-Extron - Admin Panel
+React - Admin Panel
 
 To setup Admin panel(frontend) you need to follow the below steps - 
 
